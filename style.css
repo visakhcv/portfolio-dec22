@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    background-color: #800020;
+    text-align: center;
+    position: fixed;
+    padding-left: 0px;
+    font-family: 'Rubik Spray Paint', cursive;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 10;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.nav{
+    text-decoration: none;
+    color:bisque;
+}
+.nav:hover{
+    font-size: 50px;
+    color: brown;
+}
+#pname{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+#profile:hover{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+#Home {
+    background-image: linear-gradient(to bottom right, #FF3131,#DC143C);
+    color: black;
+    padding-bottom: 20px;
+  }
+
+#div{
+    padding: 50px;
+}  
+#about{
+    margin-top: 0px;
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom right, #C0C0C0);
+}
+#videos{
+    background-image: linear-gradient(to bottom right, #FF3131,#DC143C);
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.font{
+    font-family: 'Sevillana', cursive;
+    font-size: 50px;
+}
+.font:hover{
+    font-size: 50px;
+    font-family: 'Luxurious Roman', cursive;
+    color: brown;
+}
+p{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 20px;
+}
+#movies{
+    background-image: linear-gradient(to bottom right, #C0C0C0);
+    padding-bottom: 20px;
+}
+
+
+.ico{
+    width: 25px;
+    height: 25px;
+    
+}
+#contact{
+    background-image: linear-gradient(to bottom right, #FF3131,#DC143C);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.image{
+    width: 100%;
+    height: 200px;
+}
+.col{
+    width: 15%;
+    height: 200px;
+    border: 2px solid;
+}
